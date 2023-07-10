@@ -26,3 +26,4 @@ function essaPalavraEUmPalindromo(palavra){
 
 var palavra = document.getElementById("palavra");
 palavra.addEventListener("focusout", ()=> essaPalavraEUmPalindromo(palavra.value));
+palavra.addEventListener("keypress", ()=> essaPalavraEUmPalindromo(palavra.value));
