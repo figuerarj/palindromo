@@ -1,0 +1,68 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+Html {
+  font-size: 62, 5%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+
+}
+
+.palavra-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+    background: greenyellow;
+    margin: 0 auto;
+    border-radius: 20px;
+    
+}
+
+.palavra-label{
+    margin-top: 50px;
+}
+
+#palavra{
+    height: 30px;
+    border-radius: 30px;
+    
+}
+
+.texto-section{
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.texto-div{
+    background: red;
+    width: 200px;
+    height: 200px;
+    
+    border-radius: 20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+
+.resposta{
+    background: wheat;
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+    
+}
