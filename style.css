@@ -59,10 +59,12 @@ body{
    
 }
 
-.resposta{
+#resposta{
     background: wheat;
     width: 150px;
-    height: 30px;
-    border-radius: 20px;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+        
     
 }
