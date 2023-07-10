@@ -22,7 +22,7 @@ body{
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 50px;
-    width: 200px;
+    width: 300px;
     height: 200px;
     background: greenyellow;
     margin: 0 auto;
@@ -32,6 +32,7 @@ body{
 
 .palavra-label{
     margin-top: 50px;
+    text-align: center;
 }
 
 #palavra{
@@ -47,7 +48,7 @@ body{
 
 .texto-div{
     background: red;
-    width: 200px;
+    width: 300px;
     height: 200px;
     
     border-radius: 20px;
